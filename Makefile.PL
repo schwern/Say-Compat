@@ -9,7 +9,7 @@ if ($mm_ver =~ /_/) { # dev version
 }
 
 my %Prereqs;
-$Prereqs{"Perl6::Say"} = 0.06 if $] < 5.010;
+$Prereqs{"Perl6::Say"} = 0.06 if $] < 5.010 or $ENV{PERL_RELEASING};
 
 WriteMakefile(
     NAME            => "Say::Compat",
