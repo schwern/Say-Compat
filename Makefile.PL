@@ -25,6 +25,7 @@ WriteMakefile(
     },
 
     ($mm_ver < 6.46 ? () : (META_MERGE => {
+        dynamic_config => 1,
         resources => {
             license     =>      'http://dev.perl.org/licenses/',
             homepage    =>      'http://github.com/schwern/say-compat/',
