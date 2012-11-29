@@ -47,12 +47,12 @@ When used on 5.10 or later it will load the built in L<say()|feature>.
 
 =head1 CAVEATS
 
-Perl6::Say does not fully emulate all the syntax of the real say.
+Perl6::Say does not fully emulate all the syntax of the real say().
 Therefore, to avoid incompatibilities, you must code to its
 limitations.  See the documentation for Perl6::Say for details.
 
-Future versions may use a different module to emulate say, but
-they will strive to avoid 
+Future versions may use a different module to emulate say(), but
+they will strive to avoid wakening dragons.
 
 =cut
 
