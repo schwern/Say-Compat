@@ -52,7 +52,7 @@ Therefore, to avoid incompatibilities, you must code to its
 limitations.  See the documentation for Perl6::Say for details.
 
 Future versions may use a different module to emulate say(), but
-they will strive to avoid wakening dragons.
+they will strive to be at least as function if not moreso.
 
 =cut
 
